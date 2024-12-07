@@ -1,17 +1,9 @@
+const age = '18'
+if (age === 18) console.log('You just became an adult :D (strict)')
 
+if (age == 18) console.log('You just became an adult :D (loose)')
 
-
-
-
-
-
-document.getElementById('output').innerText = ""
-
-
-// const age = '18';
-// if (age === 18) console.log('You just became an adult :D (strict)');
-
-// if (age == 18) console.log('You just became an adult :D (loose)');
+document.getElementById('output').innerText = ''
 
 // const favourite = Number(prompt("What's your favourite number?"));
 // console.log(favourite);
