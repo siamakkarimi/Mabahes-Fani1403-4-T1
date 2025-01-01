@@ -1,4 +1,4 @@
-
+// برنامه ای که اطلاعات یک شخص رو ذخیره می کند و سپس هر کدام از اطلاعات شخص که خواسته شود رو نمایش میدهد
 document.getElementById('output').innerText = 'Object Methods'
 
 const person = {
@@ -10,16 +10,16 @@ const person = {
   hasDriversLicense: true,
 
   calcAge: function () {
-    this.age = 2024 - this.birthYeah;
-    return this.age;
+    this.age = 2024 - this.birthYeah
+    return this.age
   },
 
   getSummary: function () {
-    return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
-  }
-};
+    return `${this.firstName} is a ${this.calcAge()}-year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+  },
+}
 
-console.log(person.calcAge());
-console.log(person.getSummary());
-
-
+console.log(person.calcAge())
+console.log(person.getSummary())

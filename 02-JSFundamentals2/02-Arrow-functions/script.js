@@ -1,6 +1,6 @@
 // const calcAge = (birthYear) => 1403 - birthYear
 // const hogogDaryafti = (hogog) => hogog * 1.2
-
+// تابعی که دستمزد و میزان درصدی افزایش یا کاهش حقوق کارمندی رو گرفته و حقوق دریافتی رو اعلام می کند
 // This is arrow funcation
 const FinalDastmozd = (dastmozad, kasr) => dastmozad - (dastmozad * kasr) / 100
 

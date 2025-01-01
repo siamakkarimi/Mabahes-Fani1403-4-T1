@@ -1,3 +1,4 @@
+// برنامه ای که یوزر و پسورد را از کاربر می گیرد و با استفاده یک تابع ارزیابی می کن در صورت صحیح بودن پیغام موفقیت آمیز داده و لاگین می شود ضمنا کاربر 3 بار فرصت ورود اطلاعات دارد
 var attempt = 3 // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate() {

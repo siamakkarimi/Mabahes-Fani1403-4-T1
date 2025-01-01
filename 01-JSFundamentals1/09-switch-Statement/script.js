@@ -1,3 +1,4 @@
+// برنامه ای که یا استفاده از دستور سویچ برنامه ریزی روز های هفته رو نشان می دهد
 switch (day) {
   case 'monday': // day === 'monday'
     console.log('Plan course structure')

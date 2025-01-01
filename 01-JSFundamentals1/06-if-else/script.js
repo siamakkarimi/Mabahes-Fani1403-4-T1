@@ -1,3 +1,4 @@
+// برنامه ای با در نظر گرفتن سن بالای 18، شرط امکان رانندگی و مدت سال مورد انتظار برای رانندگی رو اعلام می کند
 fName = prompt("What's your Name?")
 let currentYear = prompt("What's your currentYear?")
 const BirthedayYear = prompt("What's your birthYear?")
